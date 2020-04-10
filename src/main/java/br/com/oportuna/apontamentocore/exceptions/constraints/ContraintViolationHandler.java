@@ -28,7 +28,7 @@ public class ContraintViolationHandler extends ResponseEntityExceptionHandler {
       mapOfErrors.add(new ErrorDescriminator(f.getPropertyPath().toString() , f.getMessage()));
     });
 
-    return new ResponseEntity(mapOfErrors, HttpStatus.INTERNAL_SERVER_ERROR);
+    return new ResponseEntity(mapOfErrors, HttpStatus.BAD_REQUEST);
   }
 
 }
