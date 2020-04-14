@@ -8,9 +8,13 @@ import javax.persistence.Id;
 
 import org.hibernate.validator.constraints.Length;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity(name = "CLIENTE")
 public class Client {
   @Id
@@ -18,7 +22,7 @@ public class Client {
   @Column(name = "cliCodigo")
   Integer id;
   @Column(name = "cliNome")
-  @Length(min = 10, message = "Name must have minimum of 10")
+  @Length(min = 3, message = "Name must have minimum of 3")
   String name;
 
 }
