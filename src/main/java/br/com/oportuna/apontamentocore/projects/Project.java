@@ -2,7 +2,6 @@ package br.com.oportuna.apontamentocore.projects;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
@@ -26,9 +25,13 @@ public class Project extends AuditableEntity{
 
   @Id
   @Column(name = "prjCodigo", length = 255, nullable = false)
-  @GeneratedValue(generator = "UUID")
   @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
   private String id;
+
+  @Column(name = "prjNome", length = 255, nullable = false)
+  @NotNull
+  @NotBlank(message = "project.description.cannot.be.null")
+  private String name;
 
   @Column(name = "prjDescricao", length = 255, nullable = false)
   @NotNull

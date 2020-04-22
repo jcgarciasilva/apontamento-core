@@ -8,7 +8,9 @@ import org.springframework.data.querydsl.binding.QuerydslBinderCustomizer;
 import org.springframework.data.querydsl.binding.QuerydslBindings;
 import org.springframework.data.querydsl.binding.SingleValueBinding;
 import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
+@CrossOrigin("*")
 public interface ProjectRepository extends PagingAndSortingRepository<Project, String> , QuerydslPredicateExecutor<Project>,
     QuerydslBinderCustomizer<QProject> {
 
