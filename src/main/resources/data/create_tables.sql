@@ -2,9 +2,10 @@ DROP TABLE IF EXISTS `Projeto`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `Projeto` (
+  `prjId` bigint(20) NOT NULL AUTO_INCREMENT,
   `prjCodigo` varchar(100) NOT NULL,
   `prjDescricao` varchar(1000) NOT NULL,
-  PRIMARY KEY (`prjCodigo`)
+  PRIMARY KEY (`prjId`)
 );
 
 DROP TABLE IF EXISTS `Parametros`;

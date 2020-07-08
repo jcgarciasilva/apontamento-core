@@ -1,3 +1,5 @@
+
+alter table Projeto add `prjNome` varchar(255);
 alter table Projeto add `createUser` varchar(255);
 alter table Projeto add `createDate` date default sysdate();
 alter table Projeto add `updateUser` varchar(255);
