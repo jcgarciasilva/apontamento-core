@@ -11,10 +11,10 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin("*")
-public interface ClientRepository extends PagingAndSortingRepository<Client, Long>,
-    QuerydslPredicateExecutor<Client>, QuerydslBinderCustomizer<QClient> {
+public interface ClientRepository extends PagingAndSortingRepository<Client, Long>, QuerydslPredicateExecutor<Client>,
+    QuerydslBinderCustomizer<QClient> {
 
-      @Override
+  @Override
   default void customize(QuerydslBindings bindings, QClient client) {
 
     // Make case-insensitive 'like' filter for all string properties
