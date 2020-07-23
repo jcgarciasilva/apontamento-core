@@ -1,10 +1,9 @@
 package br.com.oportuna.apontamentocore.client;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import com.querydsl.core.annotations.QueryEntity;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import br.com.oportuna.apontamentocore.data.AuditableEntity;
 import lombok.AllArgsConstructor;
@@ -16,14 +15,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-@Entity(name = "CLIENTE")
+@Document("Clients")
+@QueryEntity
 public class Client extends AuditableEntity {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  @Column(name = "cliCodigo")
   Long id;
-  @Column(name = "cliNome")
   // @Le (min = 3, message = "Name must have minimum of 3")
   String name;
 
