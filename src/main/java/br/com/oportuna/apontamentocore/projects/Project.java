@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 public class Project extends AuditableEntity {
 
   @Id
-  private Long id;
+  private String id;
 
   @NotNull
   @NotBlank(message = "project.code.cannot.be.null")

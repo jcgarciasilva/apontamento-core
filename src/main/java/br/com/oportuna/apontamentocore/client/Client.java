@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 public class Client extends AuditableEntity {
 
   @Id
-  Long id;
+  String id;
   // @Le (min = 3, message = "Name must have minimum of 3")
   String name;
 

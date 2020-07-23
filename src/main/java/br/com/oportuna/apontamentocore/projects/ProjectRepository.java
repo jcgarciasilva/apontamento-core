@@ -11,8 +11,8 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin("*")
-public interface ProjectRepository extends PagingAndSortingRepository<Project, Long> , QuerydslPredicateExecutor<Project>,
-    QuerydslBinderCustomizer<QProject> {
+public interface ProjectRepository extends PagingAndSortingRepository<Project, String>,
+    QuerydslPredicateExecutor<Project>, QuerydslBinderCustomizer<QProject> {
 
   @Override
   default void customize(QuerydslBindings bindings, QProject client) {
