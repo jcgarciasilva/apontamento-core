@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-@Document("Projetos")
+@Document("projects")
 @QueryEntity
 public class Project extends AuditableEntity {
 
@@ -36,5 +36,7 @@ public class Project extends AuditableEntity {
   @NotNull
   @NotBlank(message = "project.description.cannot.be.null")
   private String description;
+
+  private Responsible responsible;
 
 }

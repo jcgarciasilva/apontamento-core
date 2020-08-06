@@ -1,5 +1,7 @@
 package br.com.oportuna.apontamentocore.client;
 
+import javax.validation.constraints.Size;
+
 import com.querydsl.core.annotations.QueryEntity;
 
 import org.springframework.data.annotation.Id;
@@ -15,13 +17,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-@Document("Clients")
+@Document("clients")
 @QueryEntity
 public class Client extends AuditableEntity {
 
   @Id
   String id;
-  // @Le (min = 3, message = "Name must have minimum of 3")
+  @Size(min = 3, message = "Name must have minimum of 3")
   String name;
+
+  String cnpj;
 
 }
