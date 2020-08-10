@@ -1,0 +1,918 @@
+[
+  {
+    "code": "12290",
+    "name": "DMRSE-56 - Suporte Portal Mi"
+  },
+  {
+    "code": "12308",
+    "name": "DMRSE-16 - SUPORTE NPC"
+  },
+  {
+    "code": "12339",
+    "name": "12339 - Suporte Correction Let"
+  },
+  {
+    "code": "12383",
+    "name": "DMRSE-68 - Suporte SCF"
+  },
+  {
+    "code": "12394 ",
+    "name": "12394 - CE to Customer"
+  },
+  {
+    "code": "12454_NAC",
+    "name": "DMRSE-15 - Suporte NAC "
+  },
+  {
+    "code": "12663",
+    "name": "12663 - E-mail Commercial Agre"
+  },
+  {
+    "code": "12713",
+    "name": "DMRSE-34 Suporte Intercompany"
+  },
+  {
+    "code": "12735",
+    "name": "12735 - PORTAL MI MELHORIAS Q1"
+  },
+  {
+    "code": "12777",
+    "name": "12777 - HC FACTOR"
+  },
+  {
+    "code": "12777_NVO",
+    "name": "12777 - NVOCC"
+  },
+  {
+    "code": "12777_POR",
+    "name": "12777 - PORT CALL CANCELATION"
+  },
+  {
+    "code": "12777_REPORT",
+    "name": "12777 - BKG REPORT"
+  },
+  {
+    "code": "12828_CUT",
+    "name": "12828 - TS CUT"
+  },
+  {
+    "code": "12828_DISCH",
+    "name": "12828 - TS Discharge"
+  },
+  {
+    "code": "12828_LOAD",
+    "name": "12828 - TS LOAD"
+  },
+  {
+    "code": "12912",
+    "name": "DMRSE-58 - Suporte CAP"
+  },
+  {
+    "code": "12915",
+    "name": "12915 - Notify on Closing Call"
+  },
+  {
+    "code": "12934",
+    "name": "12934 - Portal MI Metas "
+  },
+  {
+    "code": "12973",
+    "name": "12973 - SCF Segregação"
+  },
+  {
+    "code": "12975",
+    "name": "12974 - SCF Reenvio de fatura "
+  },
+  {
+    "code": "12977",
+    "name": "12977 - SCF Motivo Cancelament"
+  },
+  {
+    "code": "12980",
+    "name": "12980 - SCF Envio automático"
+  },
+  {
+    "code": "12985",
+    "name": "12985 - Info Rates"
+  },
+  {
+    "code": "12998",
+    "name": "12998 - Board of Directors"
+  },
+  {
+    "code": "13000",
+    "name": "13000 - Portal Mi Dashboards"
+  },
+  {
+    "code": "13043",
+    "name": "13043 - Vessel Schedule"
+  },
+  {
+    "code": "13155",
+    "name": "13155 - Suporte E-Cargo"
+  },
+  {
+    "code": "13250",
+    "name": "13250 - NPC New CostType"
+  },
+  {
+    "code": "13254",
+    "name": "13254 - NPC TS Melhorias"
+  },
+  {
+    "code": "13300",
+    "name": "13300 - NPC Aprovação Mercosul"
+  },
+  {
+    "code": "13303",
+    "name": "13303 - Cargo Drop Report"
+  },
+  {
+    "code": "13482",
+    "name": "13482 - CAP Weeks"
+  },
+  {
+    "code": "13491",
+    "name": "13491 - NPC Reabrir navio"
+  },
+  {
+    "code": "13492",
+    "name": "13492 - NPC Cancelar OS"
+  },
+  {
+    "code": "13500",
+    "name": "13500 - CE Print BL"
+  },
+  {
+    "code": "Abastecimento",
+    "name": "Abastecimento"
+  },
+  {
+    "code": "AbrilSan",
+    "name": "Abrilsan"
+  },
+  {
+    "code": "Administrativo",
+    "name": "Administrativo"
+  },
+  {
+    "code": "AET",
+    "name": "AET"
+  },
+  {
+    "code": "AET_WEB",
+    "name": "AET_WEB"
+  },
+  {
+    "code": "AFRMM",
+    "name": "AFRMM Control"
+  },
+  {
+    "code": "ALLOCATION",
+    "name": "12868 - ALLOCATION TOOL"
+  },
+  {
+    "code": "Apontamento",
+    "name": "Apontamento de Horas"
+  },
+  {
+    "code": "Arrecadação",
+    "name": "Arrecadação"
+  },
+  {
+    "code": "ARRIVAL_NOTICE",
+    "name": "DMRSE-24 SUP ARRIVAL NOTICE"
+  },
+  {
+    "code": "ASE",
+    "name": "ASE"
+  },
+  {
+    "code": "AtendRemoto",
+    "name": "TOLL - Atendimento Remoto"
+  },
+  {
+    "code": "Auditoria",
+    "name": "Auditoria Arrecadação"
+  },
+  {
+    "code": "Balança",
+    "name": "Balança Ecovia-PR"
+  },
+  {
+    "code": "BasCorp",
+    "name": "Núcleo"
+  },
+  {
+    "code": "BIATM",
+    "name": "BI ATM"
+  },
+  {
+    "code": "Bohler",
+    "name": "Bohler"
+  },
+  {
+    "code": "CA",
+    "name": "Controle de Acesso"
+  },
+  {
+    "code": "Cab.Manual",
+    "name": "TOLL - Cabine Manual"
+  },
+  {
+    "code": "CabAVI",
+    "name": "TOLL - Cabine AVI"
+  },
+  {
+    "code": "CAP ",
+    "name": "PORTAL MI CAP 1"
+  },
+  {
+    "code": "CapturaImg",
+    "name": "Capturador de Imagens"
+  },
+  {
+    "code": "Cargas Esp.",
+    "name": "Cargas Especiais"
+  },
+  {
+    "code": "CN",
+    "name": "CORRECTION NOTICE"
+  },
+  {
+    "code": "CobraCentro",
+    "name": "Sistema Cobra Centro"
+  },
+  {
+    "code": "COB_PENALIDADE",
+    "name": "Cobrança de Penalidade"
+  },
+  {
+    "code": "Compensacao",
+    "name": "Compensação de Impostos"
+  },
+  {
+    "code": "Conciliação",
+    "name": "Conciliação Bancária"
+  },
+  {
+    "code": "CONFIRMACAO_EMB",
+    "name": "DMRSE-64 Conf de Embarques"
+  },
+  {
+    "code": "Contábil",
+    "name": "Arrecadação - Contábil"
+  },
+  {
+    "code": "ConTag",
+    "name": "Consulta TAG&apos;s Nivel3"
+  },
+  {
+    "code": "Contatos",
+    "name": "Contatos"
+  },
+  {
+    "code": "CONTROLE_PENA",
+    "name": "Controle de Penalidades"
+  },
+  {
+    "code": "Conversão_Cta",
+    "name": "Conv.Cta.Cataratas"
+  },
+  {
+    "code": "CPAG",
+    "name": "CPAG"
+  },
+  {
+    "code": "CSP",
+    "name": "Catálogo Serviços e Projetos"
+  },
+  {
+    "code": "DELRSE-159",
+    "name": "DELRSE-159 - Cargo cut spread"
+  },
+  {
+    "code": "DELRSE-18",
+    "name": "DELRSE-18 - Carga Fracionada"
+  },
+  {
+    "code": "DELRSE-263",
+    "name": "DELRSE-263 - Máscara DACS"
+  },
+  {
+    "code": "DELRSE-272",
+    "name": "DELRSE-272 - New Feeder Tariff"
+  },
+  {
+    "code": "DELRSE-30",
+    "name": "DELRSE-30 SSO Access"
+  },
+  {
+    "code": "DELRSE-353",
+    "name": "DELRSE-353 Tarifa Progressiva"
+  },
+  {
+    "code": "DELRSE-356",
+    "name": "DELRSE-356 - Interface OFI"
+  },
+  {
+    "code": "DELRSE-69",
+    "name": "DELRSE-69 - Feeder Macro"
+  },
+  {
+    "code": "DELRSE-77",
+    "name": "DELRSE-77 – Portal MI Trade ML"
+  },
+  {
+    "code": "Demurrage",
+    "name": "Demurrage"
+  },
+  {
+    "code": "DM-2484",
+    "name": "DM-2484 - Interface DACS"
+  },
+  {
+    "code": "DMRSE-1",
+    "name": "DMRSE-1 - Intercompany Maersk"
+  },
+  {
+    "code": "DMRSE-14",
+    "name": "DMRSE-14 CRITICAL OVERDUE EXP"
+  },
+  {
+    "code": "DMRSE-19",
+    "name": "DMRSE-19 - Employee Departure"
+  },
+  {
+    "code": "DMRSE-25",
+    "name": "DMRSE-25 Front End Cabotagem"
+  },
+  {
+    "code": "DMRSE-271",
+    "name": "DMRSE-271 Suporte Info CE"
+  },
+  {
+    "code": "DMRSE-3",
+    "name": "DMRSE-3 SCF Incluir status COM"
+  },
+  {
+    "code": "DMRSE-318",
+    "name": "DMRSE-318 Ajuste na data IMPO"
+  },
+  {
+    "code": "DMRSE-319 ",
+    "name": "DMRSE-319 – CE to Customer"
+  },
+  {
+    "code": "DMRSE-321 ",
+    "name": "DMRSE-321 Tableau AR Over 180"
+  },
+  {
+    "code": "DMRSE-332",
+    "name": "DMRSE-332 Transf. de Metas"
+  },
+  {
+    "code": "DMRSE-343",
+    "name": "DMRSE-343 NPC Proposta Feeder"
+  },
+  {
+    "code": "DMRSE-347",
+    "name": "DMRSE-347 – Tableau – IMD"
+  },
+  {
+    "code": "DMRSE-349",
+    "name": "DMRSE-349 Melhorias BL Inter"
+  },
+  {
+    "code": "DMRSE-36",
+    "name": "DMRSE-36 - TS Report"
+  },
+  {
+    "code": "DMRSE-378",
+    "name": "DMRSE-378 - SCF Intercompany"
+  },
+  {
+    "code": "DMRSE-379",
+    "name": "DMRSE-379 NPC Prontidão Globe"
+  },
+  {
+    "code": "DMRSE-392",
+    "name": "DMRSE-392 Add Service\"s Marine"
+  },
+  {
+    "code": "DMRSE-393",
+    "name": "DMRSE-393 Additional voyage"
+  },
+  {
+    "code": "DMRSE-396",
+    "name": "DMRSE-396 Shipper crosscheck"
+  },
+  {
+    "code": "DMRSE-400",
+    "name": "DMRSE-400 NPC Booking Main Ves"
+  },
+  {
+    "code": "DMRSE-402",
+    "name": "DMRSE-402 - IDM  API Manager"
+  },
+  {
+    "code": "DMRSE-405",
+    "name": "DMRSE-405 Planilha Feeder"
+  },
+  {
+    "code": "DMRSE-406",
+    "name": "DMRSE-406 Cargo cut Planilha"
+  },
+  {
+    "code": "DMRSE-407",
+    "name": "DMRSE-407 Drop down count rule"
+  },
+  {
+    "code": "DMRSE-408",
+    "name": "DMRSE-408 Verificação de SI "
+  },
+  {
+    "code": "DMRSE-42",
+    "name": "DMRSE-42  Portal MI Relatórios"
+  },
+  {
+    "code": "DMRSE-452",
+    "name": "DMRSE-452 Identify cargos"
+  },
+  {
+    "code": "DMRSE-454",
+    "name": "DMRSE-454 MI Reports"
+  },
+  {
+    "code": "DMRSE-457",
+    "name": "DMRSE-457 - Add Maersk "
+  },
+  {
+    "code": "DMRSE-46",
+    "name": "DMRSE-46 Pentaho  Intercompany"
+  },
+  {
+    "code": "DMRSE-460 ",
+    "name": "DMRSE-460 RPA on Buonny Site"
+  },
+  {
+    "code": "DMRSE-468",
+    "name": "DMRSE-468 - Exclusão de SFC"
+  },
+  {
+    "code": "DMRSE-477",
+    "name": "DMRSE-477 – Portal RH "
+  },
+  {
+    "code": "DMRSE-481",
+    "name": "DMRSE-481 Aschenberger Fruits"
+  },
+  {
+    "code": "DMRSE-484",
+    "name": "DMRSE-484 - DOCSYS x WTC"
+  },
+  {
+    "code": "DMRSE-485",
+    "name": "DMRSE-485: RPA Baixa DACs"
+  },
+  {
+    "code": "DMRSE-543",
+    "name": "DMRSE-543 - EDIM"
+  },
+  {
+    "code": "DMRSE-544",
+    "name": "DMRSE-544 Melhorias SI Verific"
+  },
+  {
+    "code": "DMRSE-545",
+    "name": "DMRSE-545 Melhorias Rel Plate"
+  },
+  {
+    "code": "DMRSE-6",
+    "name": "DMRSE-6 Recibos por email"
+  },
+  {
+    "code": "DMRSE-60",
+    "name": "DMRSE-60 Treinamento Interno"
+  },
+  {
+    "code": "DMRSE-61",
+    "name": "DMRSE-61 - Suporte Schedule"
+  },
+  {
+    "code": "DMRSE-625",
+    "name": "DMRSE-625 NPC Eventos em Massa"
+  },
+  {
+    "code": "DMRSE-626",
+    "name": "DMRSE-626 – Tela de Log"
+  },
+  {
+    "code": "DMRSE-649",
+    "name": "DMRSE-649 - DocAudit"
+  },
+  {
+    "code": "DMRSE-666",
+    "name": "DMRSE-666  NPC SI Verification"
+  },
+  {
+    "code": "DMRSE-667",
+    "name": "DMRSE-667 – Portal de KPIs"
+  },
+  {
+    "code": "DMRSE-67",
+    "name": "DMRSE-67 - Suporte Info Frete"
+  },
+  {
+    "code": "DMRSE-677",
+    "name": "DMRSE-677 - JIT Dashboard "
+  },
+  {
+    "code": "DMRSE-711",
+    "name": "DMRSE-711 Enhancements of ICOS"
+  },
+  {
+    "code": "DMRSE-713",
+    "name": "DMRSE-713 NPC SO in duplicity "
+  },
+  {
+    "code": "DMRSE-723",
+    "name": "DMRSE-723 NPC with main GLOBE"
+  },
+  {
+    "code": "DMRSE-724",
+    "name": "DMRSE-724 - RPA Buonny Robot)"
+  },
+  {
+    "code": "DMRSE-757",
+    "name": "DMRSE-757 - Booking Creation"
+  },
+  {
+    "code": "DMRSE-788",
+    "name": "DMRSE-788 - NPC TS Cargo"
+  },
+  {
+    "code": "DMRSE-809",
+    "name": "DMRSE-809 - NPC vs Marcon - MI"
+  },
+  {
+    "code": "DMRSE-826",
+    "name": "DMRSE-826 - DataPuddle JIT"
+  },
+  {
+    "code": "DMRSE337",
+    "name": "DMRSE-337 - SCF Reports"
+  },
+  {
+    "code": "DMRSE678",
+    "name": "DMRSE-678 Portal de Cobrança"
+  },
+  {
+    "code": "DocCobra",
+    "name": "Sistema Doc Cobra"
+  },
+  {
+    "code": "DocXPort",
+    "name": "DocXPort"
+  },
+  {
+    "code": "DOC_AL",
+    "name": "Documentação Aliança"
+  },
+  {
+    "code": "DOC_AUDIT",
+    "name": "DOC AUDIT"
+  },
+  {
+    "code": "DPR",
+    "name": "DPR"
+  },
+  {
+    "code": "DPR - WEB",
+    "name": "DPR - WEB"
+  },
+  {
+    "code": "E-Tracking",
+    "name": "E-Tracking"
+  },
+  {
+    "code": "ECOntate",
+    "name": "Contatos"
+  },
+  {
+    "code": "EDIPROV",
+    "name": "EDI Provedores"
+  },
+  {
+    "code": "Faixa Domínio",
+    "name": "Faixa Domínio"
+  },
+  {
+    "code": "First_Spirit",
+    "name": "First Spirit"
+  },
+  {
+    "code": "Fiscal",
+    "name": "Fiscal"
+  },
+  {
+    "code": "GerMail",
+    "name": "Ger.E-Mail"
+  },
+  {
+    "code": "GesCom",
+    "name": "Gestão Compras"
+  },
+  {
+    "code": "Gesplan",
+    "name": "Gesplan"
+  },
+  {
+    "code": "GLOBE_SCD",
+    "name": "12338 - Suporte Globe Schedule"
+  },
+  {
+    "code": "HS_INFRA",
+    "name": "DMRSE-59 - Suportes INFRA"
+  },
+  {
+    "code": "IFRS",
+    "name": "IFRS"
+  },
+  {
+    "code": "Indicador",
+    "name": "Ind. Processo"
+  },
+  {
+    "code": "InfGeo",
+    "name": "Informações Geográficas"
+  },
+  {
+    "code": "INTERNO_PA",
+    "name": "DMRSE-13 - Interno PA"
+  },
+  {
+    "code": "JurAta",
+    "name": "Atas Juridico"
+  },
+  {
+    "code": "JuridicoProc",
+    "name": "Juridico"
+  },
+  {
+    "code": "KPI",
+    "name": "KPI BRASIL"
+  },
+  {
+    "code": "KPI_PLATE",
+    "name": "KPI PLATE"
+  },
+  {
+    "code": "MGP",
+    "name": "MGP"
+  },
+  {
+    "code": "MonCal",
+    "name": "Call Box Monitoramento"
+  },
+  {
+    "code": "Monitora",
+    "name": "Monitora"
+  },
+  {
+    "code": "Monitoramento",
+    "name": "Monitoramento TI"
+  },
+  {
+    "code": "MOVIDESK",
+    "name": "MOVIDESK"
+  },
+  {
+    "code": "Multilog",
+    "name": "Multilog"
+  },
+  {
+    "code": "NAC",
+    "name": "NEGOTIATION AGREEMENT CONTROL"
+  },
+  {
+    "code": "NotaDebito",
+    "name": "Nota de Débito"
+  },
+  {
+    "code": "NPC",
+    "name": "PROJETO NPC"
+  },
+  {
+    "code": "NPC_CAB",
+    "name": "12837 NPC - CABOTAGEM"
+  },
+  {
+    "code": "Nucleo",
+    "name": "Núcleo"
+  },
+  {
+    "code": "NumCor",
+    "name": "Num.Correspondências"
+  },
+  {
+    "code": "Obras - WEB",
+    "name": "Obras - WEB"
+  },
+  {
+    "code": "Omega",
+    "name": "Omega"
+  },
+  {
+    "code": "OPTICAL_FILING",
+    "name": "Optical Filing"
+  },
+  {
+    "code": "Ouvidoria",
+    "name": "Ouvidoria"
+  },
+  {
+    "code": "OVERDUE",
+    "name": "CRITICAL OVERDUE"
+  },
+  {
+    "code": "PADE",
+    "name": "Pade"
+  },
+  {
+    "code": "Pátio",
+    "name": "SG Apreensão"
+  },
+  {
+    "code": "PENTAHO",
+    "name": "12340 PENTAHO - EXTRAÇÕES"
+  },
+  {
+    "code": "Portal",
+    "name": "Portal Corp. Ecovias"
+  },
+  {
+    "code": "PORTAL_ALIANCA",
+    "name": "Portal Aliança"
+  },
+  {
+    "code": "PORTAL_MI",
+    "name": "PORTAL MI"
+  },
+  {
+    "code": "Quest",
+    "name": "Gerador Pesquisas"
+  },
+  {
+    "code": "RAD_BRASIL",
+    "name": "Release at Destination ABR"
+  },
+  {
+    "code": "RAT",
+    "name": "BOATRV"
+  },
+  {
+    "code": "RELEASE_PLATE",
+    "name": "RELEASE AT DESTINATION PLATE"
+  },
+  {
+    "code": "RHFacil",
+    "name": "RH Fácil"
+  },
+  {
+    "code": "SAM",
+    "name": "SAM"
+  },
+  {
+    "code": "SAM FROTA",
+    "name": "SAM - Frota"
+  },
+  {
+    "code": "SAP",
+    "name": "SAP"
+  },
+  {
+    "code": "SAUCAM",
+    "name": "Saúde Caminhoneiro"
+  },
+  {
+    "code": "SegVia",
+    "name": "Segurança Viária"
+  },
+  {
+    "code": "SerControle",
+    "name": "TOLL - Serviços de Controle"
+  },
+  {
+    "code": "SerFatura",
+    "name": "TOLL - Serviços de Faturamento"
+  },
+  {
+    "code": "ServiceDesk",
+    "name": "Service Desk"
+  },
+  {
+    "code": "SFC",
+    "name": "12383 -SCF Controle de Faturas"
+  },
+  {
+    "code": "SGContratos",
+    "name": "Ger. Contratos"
+  },
+  {
+    "code": "SGCOR",
+    "name": "Correspondencias"
+  },
+  {
+    "code": "SGO",
+    "name": "Ouvidoria"
+  },
+  {
+    "code": "SGR",
+    "name": "SGR"
+  },
+  {
+    "code": "SIGContrato",
+    "name": "SIGContrato"
+  },
+  {
+    "code": "SIG_COR",
+    "name": "SIG Corporativo"
+  },
+  {
+    "code": "SIG_WEB",
+    "name": "SIG WEB"
+  },
+  {
+    "code": "SisCracha",
+    "name": "Sis Crachas"
+  },
+  {
+    "code": "SisLog",
+    "name": "SisLog"
+  },
+  {
+    "code": "SisNF",
+    "name": "Emissão NF Off-line"
+  },
+  {
+    "code": "Sisporte",
+    "name": "Sisporte"
+  },
+  {
+    "code": "SSau",
+    "name": "Sistema SAU"
+  },
+  {
+    "code": "SSPISystem",
+    "name": "Oportuna Invest System"
+  },
+  {
+    "code": "Staff",
+    "name": "Staff"
+  },
+  {
+    "code": "SUGAR",
+    "name": "SUGAR"
+  },
+  {
+    "code": "Tableau_Sup",
+    "name": "Suporte Tableau"
+  },
+  {
+    "code": "Tele-Despacho",
+    "name": "Z Tele Despacho"
+  },
+  {
+    "code": "TempoViagem",
+    "name": "Tempo de Viagem"
+  },
+  {
+    "code": "Tráfego",
+    "name": "Arrecadação"
+  },
+  {
+    "code": "Treinamento",
+    "name": "Treinamento"
+  },
+  {
+    "code": "TS_INTERCOMPANY",
+    "name": "BL TS INTERCOMPANY"
+  },
+  {
+    "code": "VASVES",
+    "name": "VASVES"
+  },
+  {
+    "code": "Viagem",
+    "name": "Viagens"
+  },
+  {
+    "code": "Visitor",
+    "name": "Visitor"
+  },
+  {
+    "code": "XML",
+    "name": "XML"
+  }
+]

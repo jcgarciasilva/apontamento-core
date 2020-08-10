@@ -1,6 +1,6 @@
-package br.com.oportuna.apontamentocore.client;
+package br.com.oportuna.apontamentocore.user;
 
-import javax.validation.constraints.Size;
+import javax.validation.constraints.Email;
 
 import com.querydsl.core.annotations.QueryEntity;
 
@@ -8,27 +8,30 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import br.com.oportuna.apontamentocore.data.AuditableEntity;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
-@EqualsAndHashCode(callSuper = true)
-@Document("clients")
+@Document("users")
 @QueryEntity
-public class Client extends AuditableEntity {
+@EqualsAndHashCode(callSuper = true)
+public class User extends AuditableEntity {
 
   @Id
   String id;
 
-  Integer sqlId;
+  String socialId;
 
-  @Size(min = 3, message = "Name must have minimum of 3")
+  String username;
+
   String name;
 
-  String cnpj;
+  @Email
+  String email;
+
+  // legacy
+  String password;
 
 }

@@ -1,0 +1,38 @@
+[
+  {
+    "code": "A",
+    "name": "Administrativo"
+  },
+  {
+    "code": "C",
+    "name": "Correção"
+  },
+  {
+    "code": "D",
+    "name": "Desenvolvimento"
+  },
+  {
+    "code": "I",
+    "name": "Investigação"
+  },
+  {
+    "code": "M",
+    "name": "Manutenção"
+  },
+  {
+    "code": "O",
+    "name": "INTERNO - Fundo"
+  },
+  {
+    "code": "P",
+    "name": "Operação"
+  },
+  {
+    "code": "R",
+    "name": "Treinamento"
+  },
+  {
+    "code": "S",
+    "name": "Suporte"
+  }
+]
