@@ -14,7 +14,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import br.com.oportuna.apontamentocore.client.Client;
+import br.com.oportuna.apontamentocore.customer.Customer;
 import br.com.oportuna.apontamentocore.data.AuditableEntity;
 import br.com.oportuna.apontamentocore.projects.Project;
 import br.com.oportuna.apontamentocore.service.Service;
@@ -35,7 +35,7 @@ public class Timetrack extends AuditableEntity {
 
   @DBRef
   @NotNull
-  Client client;
+  Customer client;
 
   @NotNull
   Service service;

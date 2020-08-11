@@ -1,4 +1,4 @@
-package br.com.oportuna.apontamentocore.client;
+package br.com.oportuna.apontamentocore.customer;
 
 import com.querydsl.core.types.dsl.StringExpression;
 import com.querydsl.core.types.dsl.StringPath;
@@ -11,11 +11,11 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin("*")
-public interface ClientRepository extends PagingAndSortingRepository<Client, String>, QuerydslPredicateExecutor<Client>,
-    QuerydslBinderCustomizer<QClient> {
+public interface ClientRepository extends PagingAndSortingRepository<Customer, String>,
+    QuerydslPredicateExecutor<Customer>, QuerydslBinderCustomizer<QCustomer> {
 
   @Override
-  default void customize(QuerydslBindings bindings, QClient client) {
+  default void customize(QuerydslBindings bindings, QCustomer customer) {
 
     // Make case-insensitive 'like' filter for all string properties
     bindings.bind(String.class).first((SingleValueBinding<StringPath, String>) StringExpression::containsIgnoreCase);

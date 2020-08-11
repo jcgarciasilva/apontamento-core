@@ -1,4 +1,4 @@
-package br.com.oportuna.apontamentocore.client;
+package br.com.oportuna.apontamentocore.customer;
 
 import javax.validation.constraints.Size;
 
@@ -17,9 +17,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-@Document("clients")
+@Document("customers")
 @QueryEntity
-public class Client extends AuditableEntity {
+public class Customer extends AuditableEntity {
 
   @Id
   String id;
