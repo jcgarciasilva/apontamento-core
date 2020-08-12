@@ -22,7 +22,7 @@ public class CustomerTests extends BeanValidadorTests {
   }
 
   @Test
-  public void shouldNotCreateCustomerWithMoreThanThreeCharsOnName() {
+  public void shouldCreateCustomerWithMoreThanThreeCharsOnName() {
     Customer customer = new Customer(null, null, "Oportuna", null);
     Set<ConstraintViolation<Customer>> violations = validator.validate(customer);
 

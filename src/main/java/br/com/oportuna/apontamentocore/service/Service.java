@@ -7,9 +7,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 @Data
 @NoArgsConstructor
+@RequiredArgsConstructor
 @Document("services")
 @QueryEntity
 public class Service {
@@ -17,8 +20,10 @@ public class Service {
   @Id
   String id;
 
+  @NonNull
   String code;
 
+  @NonNull
   String name;
 
 }

@@ -22,9 +22,12 @@ import br.com.oportuna.apontamentocore.user.User;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 @Data
 @NoArgsConstructor
+@RequiredArgsConstructor
 @Document("timetracks")
 @QueryEntity
 @EqualsAndHashCode(callSuper = true)
@@ -35,27 +38,34 @@ public class Timetrack extends AuditableEntity {
 
   @DBRef
   @NotNull
+  @NonNull
   Customer client;
 
   @NotNull
+  @NonNull
   Service service;
 
   @DBRef
   @NotNull
+  @NonNull
   Project project;
 
   @DBRef
   @NotNull
+  @NonNull
   User creator;
 
   @NotNull
+  @NonNull
   LocalDate date;
 
   @NotNull
   @DecimalMin(value = "0.5", inclusive = true)
+  @NonNull
   BigDecimal spentTime;
 
   @NotBlank
   @Size(min = 10)
+  @NonNull
   String description;
 }
